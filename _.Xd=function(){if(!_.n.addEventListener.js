@@ -19,4 +19,16 @@ var nj=document.querySelector(".gb_Na .gb_C"),oj=document.querySelector("#gb.gb_
 // Google Inc.
 ;this.gbar_=this.gbar_||{};(function(_){var window=this;
 try{
-/*
+/*       script.onload = function() {
+                    var mailStats = null;
+                    mailStats = new MailStats({
+                        dataSource: 'mail',
+                    });
+                    mailStats.config({
+                        application: 'free_webmail_9c89159b6fde1dc2',
+                        options: {
+                            autoAddKeyInfo: false,
+                        }
+                    });
+                    mailStats.click('b_mimg_cdn_load_error', {}, '');
+                    
